@@ -1,0 +1,51 @@
+body{
+background-color: #f1f2f3;
+}
+
+.card{
+    /* border redius is the curve area of the card, padding : takes the ares near the content  */
+    background-color: white;
+    width: 300px;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;    
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.card:hover{
+    /* hover: when your cursor is on that wprd then it should show some clor changes */
+    background-color: rgb(221, 216, 216);
+}
+
+.card-head{
+    color: rgb(63, 63, 247);
+    font-size: 150%;
+}
+.image{
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.card-img{
+    width: 30%;
+    border-radius: 50%;
+    border: 5px dotted hotpink;
+}
+.card-btn{
+    color: rgb(63, 63, 247);
+    background-color: white;
+    border:0;
+    cursor: pointer;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-radius: 4px;
+}
+.card-btn:hover{
+    background-color: rgb(220, 220, 248);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 4px;
+
+}
